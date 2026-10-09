@@ -1,0 +1,5 @@
+SELECT year
+FROM books_awards
+GROUP BY year
+ORDER BY COUNT(*) DESC
+LIMIT 1;
